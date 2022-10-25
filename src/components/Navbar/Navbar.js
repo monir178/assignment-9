@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
             <div className="w-full block lg:flex lg:items-center lg:w-auto">
                 <div className="text-md lg:flex-grow">
-                    <Link to="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-blue-700 hover:text-white mr-4 font-semibold">
+                    <Link to={"/topics"} className="block mt-4 lg:inline-block lg:mt-0 text-blue-700 hover:text-white mr-4 font-semibold">
                         Topics
                     </Link>
                     <Link to="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-blue-700  hover:text-white mr-4 font-semibold">

@@ -11,7 +11,7 @@ function App() {
       element: <Main></Main>,
       children: [
         {
-          path: '/',
+          path: '/topics',
           element: <Header></Header>
         }
       ]
