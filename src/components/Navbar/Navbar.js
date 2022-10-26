@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
 
 
-        <nav className="flex items-center justify-between mx-auto px-8 flex-wrap bg-slate-200 p-6 shadow-lg">
+        <nav className="flex items-center justify-between mx-auto px-8 flex-wrap bg-slate-300 p-6 shadow-lg">
             <div className="flex items-center flex-shrink-0 text-blue-700  mr-6">
 
                 <span className="font-extrabold text-4xl tracking-tight">Quizzy Buzzers</span>
@@ -20,10 +20,10 @@ const Navbar = () => {
                     <Link to={"/topics"} className="block mt-4 lg:inline-block lg:mt-0 text-blue-700 hover:text-white mr-4 font-semibold">
                         Topics
                     </Link>
-                    <Link to="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-blue-700  hover:text-white mr-4 font-semibold">
+                    <Link to={"/statistics"} className="block mt-4 lg:inline-block lg:mt-0 text-blue-700  hover:text-white mr-4 font-semibold">
                         Statistics
                     </Link>
-                    <Link to="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-blue-700 font-semibold  hover:text-white">
+                    <Link to={"/blog"} className="block mt-4 lg:inline-block lg:mt-0 text-blue-700 font-semibold  hover:text-white">
                         Blog
                     </Link>
                 </div>
