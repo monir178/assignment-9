@@ -2,7 +2,9 @@ import React from "react";
 import Option from "../Option/Option";
 
 const Questions = ({ question, id }) => {
-  console.log(question);
+  const {correctAnswer} = question;
+    // console.log(question);
+    // console.log(correctAnswer);
 
   return (
     <div className="mt-5 w-3/4 mx-auto shadow-lg py-8 px-4 rounded-lg">
@@ -26,7 +28,11 @@ const Questions = ({ question, id }) => {
 
       <div className="grid gap-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
         {question.options.map((option) => (
-          <Option key={id} option={option}></Option>
+          <Option
+            key={id}
+            option={option}
+            correctAnswer={correctAnswer}
+            ></Option>
         ))}
       </div>
     </div>

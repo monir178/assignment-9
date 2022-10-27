@@ -6,8 +6,9 @@ const Quiz = () => {
   const quiz = useLoaderData();
   // console.log(quiz)
   const { data } = quiz;
-  console.log(data);
+  //   console.log(data);
   const { name, questions, total, id } = data;
+  // console.log(questions);
   return (
     <div className="mt-6">
       <h2 className="text-4xl font-bold text-blue-600 text-center">
@@ -15,8 +16,11 @@ const Quiz = () => {
       </h2>
 
       <div className="mb-20">
-        {questions.map((question) => (
-          <Questions key={id} question={question}></Questions>
+        {questions.map(question => (
+          <Questions 
+          key={id} 
+          question={question}
+          ></Questions>
         ))}
       </div>
     </div>
