@@ -21,8 +21,8 @@ const Option = ({ option, correctAnswer }) => {
 
   return (
     <div>
-      <button className="border-2 rounded-lg border-blue-200 w-full text-center bg-gray-200 py-8 px-4 hover:bg-slate-300 flex gap-3 align-center">
-        <input  onClick={showToastInRadio} className="h-6 w-6" type="radio" />
+      <button onClick={showToastInRadio} className="border-2 rounded-lg border-blue-200 w-full text-center bg-gray-200 py-8 px-4 hover:bg-slate-300 flex gap-3 align-center">
+        <input   className="h-6 w-6" type="radio" />
         <label className="font-semibold" htmlFor="">
           {option}
         </label>

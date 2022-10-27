@@ -20,7 +20,7 @@ const Header = () => {
           backgroundBlendMode: "hue",
         }}>
         <div className="ml-4 my-8  text-center">
-          <h4 className="text-6xl font-bold text-white pb-3 mb-4">
+          <h4 className="sm:text-6xl text-4xl font-bold text-white pb-3 mb-4">
            Learn Web Development Effectivly
           </h4>
           <p className="text-gray-200 font-semibold text-lg py-3">
