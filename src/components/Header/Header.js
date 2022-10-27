@@ -21,7 +21,7 @@ const Header = () => {
         }}>
         <div className="ml-4 text-center">
           <h4 className="text-5xl font-bold text-white pb-3">
-            Let's know Your Knowledge
+            Explore Your Knowledge
           </h4>
           <p className="text-gray-200 font-semibold text-md py-3">
             Web development is the building and maintenance of websites; <br />{" "}
