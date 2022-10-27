@@ -7,12 +7,14 @@ import Topics from './components/Topics/Topics';
 import Blog from './components/Blog/Blog';
 import Statistics from './components/Statistics/Statistics';
 import Quiz from './components/Quiz/Quiz';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
       element: <Main></Main>,
+      errorElement: <ErrorPage/>,
       children: [
         {
           index: 'true',
